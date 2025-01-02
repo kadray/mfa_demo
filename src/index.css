@@ -35,20 +35,31 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+button.amplify-button {
+  border-radius: 16px;
+  border: none;
+  padding: 0.8em 1.6em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-button:hover {
-  border-color: #646cff;
+
+[data-amplify-container] .amplify-tabs__item--active {
+  border-radius: 4px;
+  color: #000000;
+  border: 1px solid rgb(0, 0, 0);
 }
+[data-amplify-container] .amplify-tabs__item:hover {
+  background-color: #b1b1b1;
+  border-radius: 4px;
+  color: #777777;
+  border: 1px solid rgb(102, 102, 102);
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
