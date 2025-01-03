@@ -56,6 +56,16 @@
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
+.delete-button:hover {
+  background-color: #5c5c5c;
+  transform: scale(1.05);
+}
+
+.delete-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
 .user-email {
   font-family: "Arial", sans-serif;
   color: hwb(102 2% 63%);
