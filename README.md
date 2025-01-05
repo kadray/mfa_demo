@@ -16,7 +16,6 @@
     </ol>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/56978ed1-f284-48fd-a3b8-f16514f256d0" alt="Oczekiwany rezultat - Zadanie 1">
-      <p><strong>Oczekiwany rezultat</strong></p>
     </div>
   </section>
 
@@ -51,7 +50,6 @@ export default withAuthenticator(App);
     </ol>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/dd6103f8-3fd2-47cb-ade3-b5e8b26cfc9d" alt="QR Code Verification">
-      <p><strong>Oczekiwany rezultat</strong></p>
     </div>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/4e695800-aac6-4a67-990e-a8c9c92ba227" alt="Success MFA">
@@ -80,7 +78,6 @@ export default withAuthenticator(App);
     </ol>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/942bd0a3-fa9b-47ec-9e6f-9a34b4805fb1" alt="Logout Button">
-      <p><strong>Oczekiwany rezultat</strong></p>
     </div>
   </section>
 
@@ -123,7 +120,6 @@ useEffect(() => {
     </ol>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/00d9800d-d93e-46a5-a921-e0905ae657a8" alt="Display Email">
-      <p><strong>Oczekiwany rezultat</strong></p>
     </div>
   </section>
 
@@ -157,6 +153,5 @@ async function handleDeleteUser() {
     </ol>
     <div class="image">
       <img src="https://github.com/user-attachments/assets/c49c0b44-6e05-4b06-a4e3-5386a1e06f3f" alt="Delete Account Button">
-      <p><strong>Oczekiwany rezultat</strong></p>
     </div>
   </section>
