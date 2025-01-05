@@ -5,9 +5,17 @@ import awsExports from "./aws-exports.ts";
 import { withAuthenticator, useAuthenticator } from "@aws-amplify/ui-react";
 import { fetchUserAttributes } from "aws-amplify/auth";
 import React, { useEffect, useState } from "react";
+import { deleteUser } from "aws-amplify/auth";
 
 Amplify.configure(awsExports);
 
+async function handleDeleteUser() {
+  try {
+    await deleteUser();
+  } catch (error) {
+    console.log(error);
+  }
+}
 function App() {
   const { signOut } = useAuthenticator((context) => [context.signOut]);
   const [email, setEmail] = useState("");
@@ -26,9 +34,14 @@ function App() {
         Logged in as: <br />
         {email}
       </p>
-      <button className="sign-out-button" onClick={signOut}>
-        Sign Out
-      </button>
+      <div>
+        <button className="sign-out-button" onClick={signOut}>
+          Sign Out
+        </button>
+        <button className="delete-button" onClick={handleDeleteUser}>
+          Delete User
+        </button>
+      </div>
     </div>
   );
 }
