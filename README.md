@@ -9,6 +9,7 @@
 1. Sklonuj repozytorium i przejdź na branch `Zadanie_1`:
     ```bash
     git clone https://github.com/kadray/mfa_demo.git
+    cd mfa_demo
     git checkout Zadanie_1
     ```
 
