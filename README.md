@@ -166,6 +166,3 @@
 
 ---
 
-## Podsumowanie
-
-Ta instrukcja przeprowadza przez konfigurację aplikacji z MFA w AWS Amplify, obsługę logowania i wylogowania, wyświetlanie danych użytkownika oraz usuwanie konta. W razie pytań, korzystaj z załączonych linków do dokumentacji i pomocnych zasobów.
