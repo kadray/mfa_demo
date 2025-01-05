@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MFA Demo Using AWS Amplify</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0 20px;
-      background-color: #f4f4f9;
-      color: #333;
-    }
-    h1, h2 {
-      color: #444;
-    }
-    pre {
-      background: #f8f8f8;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-    .image {
-      text-align: center;
-      margin: 20px 0;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-  </style>
-</head>
-<body>
+
   <header>
     <h1>MFA Demo Using AWS Amplify</h1>
     <p>Instrukcja instalacji i konfiguracji.</p>
