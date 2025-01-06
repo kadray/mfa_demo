@@ -36,8 +36,11 @@
    - [Filmiku instruktażowego](https://www.youtube.com/watch?v=hQEsl93I5nE&t=153s)
 
 2. Pobierz aplikację **Authenticator** na telefon.
+   Polecamy użyć Google Authenticator (waży najmniej):
+   - [App Store](https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en-US)
 
-3. Dodaj importy do pliku:
+4. Do pliku `src/App.tsx` dodaj importy:
     ```javascript
     import "@aws-amplify/ui-react/styles.css";
     import { Amplify } from "aws-amplify";
@@ -45,12 +48,12 @@
     import awsExports from "./aws-exports.ts";
     ```
 
-4. Skonfiguruj Amplify:
+5. Skonfiguruj Amplify:
     ```javascript
     Amplify.configure(awsExports);
     ```
 
-5. Owiń aplikację w `withAuthenticator`:
+6. Owiń aplikację w `withAuthenticator`:
     ```javascript
     function App() {
       // reszta kodu
@@ -58,7 +61,8 @@
     export default withAuthenticator(App);
     ```
 
-6. Stwórz konto i zweryfikuj je za pomocą e-maila oraz aplikacji Authenticator.
+7. Stwórz konto i zweryfikuj je za pomocą e-maila oraz aplikacji Authenticator.
+Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail](https://temp-mail.org/en/)
 
 **Przykład weryfikacji:**
 
