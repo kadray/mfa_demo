@@ -4,13 +4,13 @@
 
 ---
 
-## Zadanie 1: Przygotowanie środowiska
+## Przygotowanie środowiska
 
-1. Sklonuj repozytorium i przejdź na branch `Zadanie_1`:
+1. Sklonuj repozytorium i przejdź na branch `Zadania`:
     ```bash
     git clone https://github.com/kadray/mfa_demo.git
     cd mfa_demo
-    git checkout Zadanie_1
+    git checkout Zadania
     ```
 
 2. Zainstaluj zależności:
@@ -29,7 +29,7 @@
 
 ---
 
-## Zadanie 2: Dodanie dwuetapowej weryfikacji (MFA)
+## Zadanie 1: Dodanie dwuetapowej weryfikacji (MFA)
 
 1. Skorzystaj z:
    - [Dokumentacji AWS Amplify](https://docs.amplify.aws/gen1/react/start/getting-started/auth/)
@@ -72,7 +72,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 
 ---
 
-## Zadanie 3: Wylogowanie z aplikacji
+## Zadanie 2: Wylogowanie z aplikacji
 
 **Link do dokumentacji:** [Amplify Auth Documentation](https://docs.amplify.aws/gen1/react/start/getting-started/auth/)
 
@@ -99,7 +99,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 
 ---
 
-## Zadanie 4: Wyświetlanie e-maila zalogowanego użytkownika
+## Zadanie 3: Wyświetlanie e-maila zalogowanego użytkownika
 
 **Linki do dokumentacji i rozwiązania:**
 - [Managing Attributes](https://docs.amplify.aws/gen1/flutter/build-a-backend/auth/managing-attributes/)
@@ -138,7 +138,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 
 ---
 
-## Zadanie 5: Usuwanie konta użytkownika
+## Zadanie 4: Usuwanie konta użytkownika
 
 **Link do dokumentacji:** [Delete User Account](https://docs.amplify.aws/gen1/react/build-a-backend/auth/delete-user-account/)
 
