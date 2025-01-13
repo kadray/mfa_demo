@@ -5,7 +5,7 @@
 ---
 
 ## Przygotowanie środowiska
-
+Do wykonania zadań konieczne jest zainstalowanie **Node.js**
 1. Sklonuj repozytorium i przejdź na branch `Zadania`:
     ```bash
     git clone https://github.com/kadray/mfa_demo.git
@@ -70,6 +70,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 
 ![Success MFA](https://github.com/user-attachments/assets/4e695800-aac6-4a67-990e-a8c9c92ba227)
 
+### Na UPeL wyślij widok formularza logowania i wygenerowany kod QR.
 ---
 
 ## Zadanie 2: Wylogowanie z aplikacji
@@ -96,7 +97,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 **Przykład:**
 
 ![Logout Button](https://github.com/user-attachments/assets/942bd0a3-fa9b-47ec-9e6f-9a34b4805fb1)
-
+### Na UPeL wyślij widok strony z przyciskiem wylogowania
 ---
 
 ## Zadanie 3: Wyświetlanie e-maila zalogowanego użytkownika
@@ -135,7 +136,7 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 **Przykład:**
 
 ![Display Email](https://github.com/user-attachments/assets/00d9800d-d93e-46a5-a921-e0905ae657a8)
-
+### Na UPeL wyślij zrzut ekranu z wyświetlonym adresem e-mail na stronie.
 ---
 
 ## Zadanie 4: Usuwanie konta użytkownika
@@ -168,6 +169,6 @@ Możesz użyć własnego e-maila, lub skorzystać z jednorazowego np.: [TempMail
 **Przykład:**
 
 ![Delete Account Button](https://github.com/user-attachments/assets/c49c0b44-6e05-4b06-a4e3-5386a1e06f3f)
-
+### Na UPeL wyślij zrzut ekranu próby ponownego zalogowania się na konto po jego usunięciu
 ---
 
